@@ -1,0 +1,19 @@
+.scrolling-glaso {
+	position: fixed;
+	right: 0;
+	white-space: nowrap;
+	font-size: 48px;
+	animation-name: scroll;
+	animation-duration: 10000ms;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(-1000%);
+	}
+}
