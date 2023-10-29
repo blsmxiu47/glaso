@@ -1,4 +1,3 @@
 # Glaso
 
-Motivational browser extension built with the Web Extensions API.
-
+Motivational browser extension built using the WebExtensions API.
