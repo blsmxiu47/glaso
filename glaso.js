@@ -11,7 +11,6 @@ const glasoStrings = [
 ];
 
 function addScrollingGlaso(max_delay) {
-	// Set delay for the session
 	const randomDelay = Math.random() * max_delay;
 	
 	// Create glasos
